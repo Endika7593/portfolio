@@ -272,3 +272,41 @@ html {
 
 }
 
+/* SKILLS */
+
+.skills {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 3rem 1.25rem;
+}
+
+.skills .contenido-seccion {
+    max-width: 68rem;
+    margin: auto;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 3rem;
+    font-family: Righteous;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.skills .fila {
+    display: flex;
+
+}
+
+.skills .fila .col {
+    width: 50%;
+    padding: 0 1.25rem;
+}
+
+.skills .fila .col h3 {
+    font-size: 1.75rem;
+    font-family: Righteous;
+    margin-bottom: 1.5rem;
+}
+
+
