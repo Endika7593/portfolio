@@ -137,3 +137,138 @@ html {
     background-color: #1CB698;
     color: #1e2326;
 }
+
+/* SOBRE MÍ */
+
+.sobremi {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 3rem 1.25rem;
+}
+
+.sobremi .contenido-seccion {
+    max-width: 68rem;
+    margin: auto;
+    text-align: center;
+}
+
+.sobremi h2 {
+    font-size: 3rem;
+    font-family: Righteous;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.sobremi .contenido-seccion p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    
+}
+
+.sobremi .contenido-seccion p span {
+    color: #1CB698;
+    font-weight: bold;
+
+}
+
+.sobremi .fila {
+    display: flex;
+    
+
+}
+
+.sobremi .fila .col {
+    width: 50%;
+    
+}
+
+.sobremi .fila .col h3 {
+    font-size: 1.5rem;
+    font-family: Righteous;
+    margin-bottom: 1.5rem;
+}
+
+.sobremi .fila .col ul {
+    list-style: none;
+    text-align: justify;
+}
+
+.sobremi .fila .col ul li {
+    margin: 0.75rem 0;
+}
+
+.sobremi .fila .col ul li strong {
+    display: inline-block;
+    color: #1CB698;
+    width: 8rem;
+}
+
+.sobremi .fila .col ul li span {
+    background-color: #1CB698;
+    padding: 0.2rem;
+    font-weight: bold;
+    border-radius: 0.3rem;;
+}
+
+.sobremi .fila .col .contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sobremi .fila .col .contenedor-intereses .interes {
+    width: 8rem;
+    height: 7rem;
+    background-color: #252A2E;
+    border-radius: 0.625rem;
+    margin: 0 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    
+}
+
+
+.sobremi .fila .col .contenedor-intereses .interes:hover {
+    background-color: #1CB698;
+    color: #1e2326;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes i {
+    font-size: 1.8rem;
+    margin-bottom: 0.625rem;
+}
+
+.sobremi button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 1.25rem auto;
+    padding: 0.625rem 1.3rem;
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.sobremi button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremi button:hover .overlay {
+    width: 100%;
+
+}
+
